@@ -53,6 +53,8 @@ example command:
 rosrun kalibr kalibr_calibrate_cameras --target april_6x6.yaml --models pinhole-radtan pinhole-radtan --topics /cam0/image_raw /cam1/image_raw --bag cam_april.bag --bag-freq 4.0
 ```
 
+*注意：kalibr校准多相机时得出的转换矩阵是相机转到参考相机的转换矩阵，如cam1到cam0、cam2到cam0*
+
 
 ## 3、使用kalibr进行相机和imu的联合标定
 参考：[Camera IMU calibration](https://github.com/ethz-asl/kalibr/wiki/camera-imu-calibration)
