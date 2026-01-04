@@ -62,3 +62,19 @@ tar -cJvf myfolder.tar.xz myfolder
 tar -xJvf myfolder.tar.xz
 ```
 
+### 4.使用 `rar`
+
+压缩：
+
+**RAR 是专有格式，只有 WinRAR 官方工具能“创建”rar，大多数 Linux 工具只能解压，不能压缩成 rar**
+
+解压：
+
+```bash
+# 安装
+sudo apt update
+sudo apt install unrar
+
+# 解压
+unrar x 文件名.rar
+```

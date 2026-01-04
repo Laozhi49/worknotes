@@ -105,6 +105,12 @@
 
 👉 ![图片描述](https://example.com/image.png)
 
+
+或者
+```markdown
+<img src="xxx.jpg" style="width:50%; height:auto;">
+```
+
 ---
 
 ## 🧮 8. 代码（Code）
