@@ -190,10 +190,10 @@ sudo systemctl status cron      # 查看状态
 添加：
 ```bash
 # 香橙派
-*/10 * * * * /home/orangepi/ipv6-watch.sh
+*/10 * * * * /home/orangepi/workspace/watch/ipv6_watch/ipv6-watch.sh
 
 # 树莓派
-*/10 * * * * /home/pi5/ipv6-watch.sh
+*/10 * * * * /home/pi5/workspace/watch/ipv6_watch/ipv6-watch.sh
 ```
 保存即可
 
