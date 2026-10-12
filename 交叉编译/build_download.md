@@ -4,6 +4,18 @@ colcon build --build-base build_aarch64 --install-base install_aarch64 --cmake-a
 ```
 
 # 下载编译产物
+```bash
+# 跳板传输
+rsync -avz -J -e "ssh -J JumpHostname@[ip]]" \
+  folder_path/ \
+  hostname@[ip]:folder_path
+
+# 直接传输
+rsync -avz \
+  folder_path/ \
+  hostname@[ip]:folder_path
+```
+
 ## dshanpi (Boat1)
 ```bash
 # navigation
